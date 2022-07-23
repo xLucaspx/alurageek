@@ -3,7 +3,8 @@
     justify-content: space-between;
 }
 
-.cabecalho__link:hover, .cabecalho__link:focus {
+.cabecalho__link:hover,
+.cabecalho__link:focus {
     transition: 0.5s ease-in;
     transform: scale(1.1);
     opacity: 80%;
@@ -47,7 +48,8 @@
     transition: 0.5s;
 }
 
-.pesquisa-produto__btn:hover, .pesquisa-produto__btn:focus {
+.pesquisa-produto__btn:hover,
+.pesquisa-produto__btn:focus {
     transform: scale(1.1);
     filter: invert(20%) sepia(42%) saturate(5202%) hue-rotate(206deg) brightness(94%) contrast(101%);
 }

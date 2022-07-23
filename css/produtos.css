@@ -8,6 +8,7 @@
 .produtos-divisao {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .produtos__link {
@@ -45,6 +46,15 @@
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+}
+
+.produto__img {
+    box-shadow: 5px 5px 5px #00000025;
+}
+
+.produto__img:hover {
+    transition: 0.5s ease-in-out;
+    box-shadow: 7px 7px 7px #00000050;
 }
 
 .produto__preco {
