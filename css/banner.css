@@ -5,6 +5,11 @@
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    align-items: flex-end;
+}
+
+.banner__conteudo {
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: 1.8rem;

@@ -1,7 +1,6 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 0.5rem;
 }
 
 .cabecalho__link:hover, .cabecalho__link:focus {

@@ -1,0 +1,52 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--cinza-claro);
+}
+
+.produtos-divisao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos__link {
+    font-size: 1.2rem;
+}
+
+.produtos__link,
+.produto__link {
+    color: var(--azul);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.produtos__link::after {
+    content: url("../img/arrow.png");
+    float: right;
+    margin-left: 5px;
+}
+
+.produtos__link:hover,
+.produtos__link:focus,
+.produto__link:hover,
+.produto__link:focus {
+    transition: 0.5s ease-in;
+    text-decoration: underline;
+    opacity: 60%;
+}
+
+.produtos__lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos__card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.produto__preco {
+    font-weight: 700;
+}

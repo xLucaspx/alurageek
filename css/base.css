@@ -66,3 +66,8 @@ body {
     background-color: var(--branco);
     font-weight: 400;
 }
+
+.titulo-padrao {
+    font-size: 2rem;
+    font-weight: 700;
+}
