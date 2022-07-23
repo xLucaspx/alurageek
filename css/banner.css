@@ -1,0 +1,25 @@
+.banner {
+    height: 350px;
+    background-image: url("../img/banner.png");
+    background-size: 100vw 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1.8rem;
+    color: var(--branco);
+}
+
+.banner__titulo {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.banner__descricao {
+    font-size: 1.2rem;
+}
+
+.banner__link {
+    margin-bottom: 2rem;
+}

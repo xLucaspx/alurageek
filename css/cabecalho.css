@@ -1,0 +1,54 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.cabecalho__link:hover, .cabecalho__link:focus {
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    opacity: 80%;
+}
+
+.cabecalho-divisao {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.pesquisa-produto {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    background-color: var(--cinza-claro);
+    border-radius: 20px;
+    padding: 0 1rem;
+}
+
+.pesquisa-produto__input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0.75rem 1rem;
+    flex-grow: 3;
+    font-family: inherit;
+    color: inherit;
+}
+
+.pesquisa-produto__input:focus {
+    border-bottom: 2px solid var(--azul);
+}
+
+.pesquisa-produto__btn {
+    flex-grow: 1;
+    height: 100%;
+    background: url("../img/lupa.png") no-repeat center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.pesquisa-produto__btn:hover, .pesquisa-produto__btn:focus {
+    transform: scale(1.1);
+    filter: invert(20%) sepia(42%) saturate(5202%) hue-rotate(206deg) brightness(94%) contrast(101%);
+}

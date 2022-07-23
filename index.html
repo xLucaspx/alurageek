@@ -16,22 +16,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/banner.css">
 </head>
 <body>
     <a href="#conteudo-principal" class="pular-navegacao">Pular para o conteúdo principal</a>
 
     <header class="cabecalho container">
-        <a href="index.html" class="cabecalho__link" title="Home Alura Geek">
-            <img src="img/logo-alurageek.png" alt width="175" height="50" class="cabecalho__img">
-        </a>
-
-        <div class="pesquisa-produto">
-            <input type="text" class="pesquisa-produto__input">
-            <button type="button" class="pesquisa-produto__btn"></button>
+        <div class="cabecalho-divisao">
+            <a href="index.html" class="cabecalho__link" title="Home Alura Geek">
+                <img src="img/logo-alurageek.png" alt width="175" height="50" class="cabecalho__img">
+            </a>
+    
+            <div class="pesquisa-produto">
+                <input type="text" class="pesquisa-produto__input" placeholder="O que deseja encontrar?">
+                <button type="button" class="pesquisa-produto__btn"></button>
+            </div>
         </div>
 
         <a href="login.html" class="btn-login btn-padrao">Login</a>
     </header>
+    <!-- Fim cabeçalho -->
+    <main>
+        <section class="banner container" id="conteudo-principal">
+            <h1 class="banner__titulo">Ofertas de Agosto</h1>
+            <h2 class="banner__descricao">Produtos selecionados com até 40% de desconto</h2>
+            <a href="produtos.html" class="banner__link btn-padrao">Ver produtos</a>
+        </section>
+    </main>
 </body>
-
 </html>
