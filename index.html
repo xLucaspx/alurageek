@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Alura Geek</title>
+    <title>AluraGeek | Home</title>
     <meta name="description"
         content="Loja online de produtos Geek e Nerd especialmente selecionados. Confira as promoções e ofertas exclusivas!">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/rodape.css">
 </head>
 <body>
     <a href="#conteudo-principal" class="pular-navegacao">Pular para o conteúdo principal</a>
@@ -31,12 +33,12 @@
             </a>
     
             <div class="pesquisa-produto">
-                <input type="text" class="pesquisa-produto__input" placeholder="O que deseja encontrar?">
-                <button type="button" class="pesquisa-produto__btn"></button>
+                <input type="text" class="pesquisa-produto__input" placeholder="O que deseja encontrar?" aria-label="Barra de pesquisa de produtos">
+                <button type="button" class="pesquisa-produto__btn" aria-label="Pesquisar"></button>
             </div>
         </div>
 
-        <a href="login.html" class="btn-login btn-padrao">Login</a>
+        <a href="login.html" class="btn-login btn-padrao" role="button">Login</a>
     </header>
     <!-- Fim cabeçalho -->
     <main>
@@ -44,7 +46,7 @@
             <div class="banner__conteudo container">
                 <h1 class="banner__titulo">Ofertas de Agosto</h1>
                 <h2 class="banner__descricao">Produtos selecionados com até 40% de desconto</h2>
-                <a href="produtos.html" class="banner__link btn-padrao">Ver produtos</a>
+                <a href="produtos.html" class="banner__link btn-padrao" role="button">Ver produtos</a>
             </div>
         </section>
         <!-- Fim banner -->
@@ -187,7 +189,7 @@
                 <li class="produtos__card">
                     <a href="produtos.html" class="produto__link" title="Ver produto">
                         <img src="img/produtos-vestuario/produtos-vestuario_5.png" alt="Camiseta com estampa de Rick e Morty" width="176" height="174" class="produto__img">
-                        <h4 class="produto__nome">Camiseta Rick and Morty</h4>
+                        <h4 class="produto__nome">Camiseta Rick & Morty</h4>
                         <p class="produto__preco">R$ 79,90</p>
                     </a>
                 </li>
@@ -216,17 +218,17 @@
             </nav>
 
             <form action="" class="contato__form">
-                <p class="form__descricao"><strong class="form__descricao--destaque">Fale conosco!</strong><br>Preencha os campos abaixo e envie sua mensagem</p>
+                <p class="contato__descricao"><strong class="contato__descricao--destaque">Fale conosco!</strong><br>Preencha os campos abaixo e envie sua mensagem</p>
 
-                <fieldset class="contato__campo">
+                <fieldset class="form__campo">
                     <input type="text" class="campo__texto campo__texto--input" id="contato__nome" name="name" placeholder="Digite seu nome" required>
-                    <label for="contato__nome" class="campo__label">Nome: </label>
-                    <span class="contato__erro contato__erro-nome"></span>
+                    <label for="contato__nome" class="campo__label">Nome</label>
+                    <span class="form__erro form__erro--nome"></span>
                 </fieldset>
-                <fieldset class="contato__campo">
+                <fieldset class="form__campo">
                     <textarea name="body" class="campo__texto campo__texto--textarea" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-                    <label for="contato__mensagem" class="campo__label">Mensagem: </label>
-                    <span class="contato__erro contato__erro-mensagem"></span>
+                    <label for="contato__mensagem" class="campo__label">Mensagem</label>
+                    <span class="form__erro form__erro--mensagem"></span>
                 </fieldset>
                 <fieldset>
                     <button type="submit" class="form__btn btn-padrao">Enviar mensagem</button>
@@ -234,6 +236,22 @@
             </form>
         </section>
         <!-- Fim contato -->
-    </main>
+    </main> 
+    <footer class="rodape container">
+        <p class="creditos">&copy; Desenvolvido por Lucas da Paz - 2022</p>
+
+        <ul class="redes">
+			<li><a href="https://github.com/xLucaspx" class="redes__link" title="Lucas da Paz | GitHub" target="_blank">
+                <img src="/img/redes/logo-github.svg" alt="Logo GitHub" width="45px" height="45px" class="redes__img">
+            </a></li>
+			<li><a href="https://www.linkedin.com/in/xlucaspx/" class="redes__link" title="Lucas da Paz | LinkedIn" target="_blank">
+                <img src="/img/redes/logo-linkedin.svg" alt="Logo LinkedIn" width="45px" height="45px" class="redes__img">
+            </a></li>
+            <li><a href="https://www.instagram.com/luacspaz/" class="redes__link" title="Lucas da Paz | Instagram" target="_blank">
+                <img src="/img/redes/logo-instagram.png" alt="Logo Instagram" width="45px" height="45px" class="redes__img">
+            </a></li>
+        </ul>
+    </footer>
+    <!-- Fim rodapé -->
 </body>
 </html>

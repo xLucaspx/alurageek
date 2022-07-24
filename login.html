@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AluraGeek | Login</title>
+    <meta name="description" content="Loja online de produtos Geek e Nerd especialmente selecionados. Confira as promoções e ofertas exclusivas!">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <a href="#conteudo-principal" class="pular-navegacao">Pular para o conteúdo principal</a>
+
+    <header class="cabecalho container">
+        <div class="cabecalho-divisao">
+            <a href="index.html" class="cabecalho__link" title="Home Alura Geek">
+                <img src="img/logo-alurageek.svg" alt width="175" height="50" class="cabecalho__img">
+            </a>
+    
+            <div class="pesquisa-produto">
+                <input type="text" class="pesquisa-produto__input" placeholder="O que deseja encontrar?" aria-label="Barra de pesquisa de produtos">
+                <button type="button" class="pesquisa-produto__btn" aria-label="Pesquisar"></button>
+            </div>
+        </div>
+    </header>
+    <!-- Fim cabeçalho -->
+    <main>
+        <section class="login container">
+            <form action="" class="form__login">
+                <p class="login__texto">Iniciar sessão</p>
+
+                <fieldset class="form__campo form__campo--login">
+                    <input type="email" name="email" id="login__email" class="campo__texto" placeholder="Digite seu email">
+                    <label for="login__email" class="campo__label">Email</label>
+                    <span class="form__erro form__erro--email"></span>
+                </fieldset>
+                <fieldset class="form__campo form__campo--login">
+                    <input type="password" name="senha" id="login__senha" class="campo__texto" placeholder="Digite sua senha">
+                    <label for="login__senha" class="campo__label">Senha</label>
+                    <span class="form__erro form__erro--senha"></span>
+                </fieldset>
+                <fieldset>
+                    <button type="submit" class="form__btn form__btn--login btn-padrao">Entrar</button>
+                </fieldset>
+            </form>
+        </section>
+        <!-- Fim login -->
+        <section class="contato container">
+            <img src="img/logo-alurageek.svg" alt="Logotipo da loja Alura Geek" width="180" height="50" class="contato__logo">
+
+            <nav class="nav">
+                <ul class="nav__lista">
+                    <li class="nav__item"><a href="#" class="nav__link">Quem somos</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Política de privacidade</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Programa fidelidade</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Nossas lojas</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Quero ser franqueado</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Anuncie aqui</a></li>
+                </ul>
+            </nav>
+
+            <form action="" class="contato__form">
+                <p class="contato__descricao"><strong class="contato__descricao--destaque">Fale conosco!</strong><br>Preencha os campos abaixo e envie sua mensagem</p>
+
+                <fieldset class="form__campo">
+                    <input type="text" class="campo__texto campo__texto--input" id="contato__nome" name="name" placeholder="Digite seu nome" required>
+                    <label for="contato__nome" class="campo__label">Nome</label>
+                    <span class="form__erro form__erro--nome"></span>
+                </fieldset>
+                <fieldset class="form__campo">
+                    <textarea name="body" class="campo__texto campo__texto--textarea" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <label for="contato__mensagem" class="campo__label">Mensagem</label>
+                    <span class="form__erro form__erro--mensagem"></span>
+                </fieldset>
+                <fieldset>
+                    <button type="submit" class="form__btn btn-padrao">Enviar mensagem</button>
+                </fieldset>
+            </form>
+        </section>
+        <!-- Fim contato -->
+    </main>
+    <footer class="rodape container">
+        <p class="creditos">&copy; Desenvolvido por Lucas da Paz - 2022</p>
+
+        <ul class="redes">
+			<li><a href="https://github.com/xLucaspx" class="redes__link" title="Lucas da Paz | GitHub" target="_blank">
+                <img src="/img/redes/logo-github.svg" alt="Logo GitHub" width="45px" height="45px" class="redes__img">
+            </a></li>
+			<li><a href="https://www.linkedin.com/in/xlucaspx/" class="redes__link" title="Lucas da Paz | LinkedIn" target="_blank">
+                <img src="/img/redes/logo-linkedin.svg" alt="Logo LinkedIn" width="45px" height="45px" class="redes__img">
+            </a></li>
+            <li><a href="https://www.instagram.com/luacspaz/" class="redes__link" title="Lucas da Paz | Instagram" target="_blank">
+                <img src="/img/redes/logo-instagram.png" alt="Logo Instagram" width="45px" height="45px" class="redes__img">
+            </a></li>
+        </ul>
+    </footer>
+    <!-- Fim rodapé -->
+</body>
+</html>

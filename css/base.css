@@ -56,13 +56,13 @@ body {
     background-color: var(--azul);
     border: 1px solid var(--azul);
     border-radius: 7px;
-    box-shadow: 2px 5px 12px 5px #00000010;
+    box-shadow: 2px 5px 12px 5px #00000025;
     transition: 0.5s ease-in-out;
 }
 
 .btn-padrao:hover,
 .btn-padrao:focus {
-    box-shadow: 7px 10px 17px 5px #00000025;
+    box-shadow: 7px 10px 17px 5px #00000045;
     color: var(--azul);
     background-color: var(--branco);
     font-weight: 400;

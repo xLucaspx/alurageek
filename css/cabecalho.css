@@ -13,6 +13,7 @@
 .cabecalho-divisao {
     display: flex;
     gap: 3.5rem;
+    align-self: flex-start;
 }
 
 .pesquisa-produto {

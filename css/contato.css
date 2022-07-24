@@ -40,63 +40,6 @@
     flex-grow: 2;
 }
 
-.form__descricao--destaque {
+.contato__descricao--destaque {
     font-weight: 700;
-}
-
-.contato__campo {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    max-width: 560px;
-    box-sizing: border-box;
-    position: relative;
-    background-color: var(--branco);
-    border-radius: 10px;
-}
-
-.campo__texto {
-    font-family: inherit;
-    color: inherit;
-    font-size: inherit;
-    border: none;
-    padding: 0.75rem;
-    margin: 10px;
-}
-
-.campo__texto::placeholder {
-    visibility: hidden;
-}
-
-.campo__texto:focus {
-    outline: none;
-    border-bottom: 1px solid var(--azul);
-}
-
-.campo__label {
-    position: absolute;
-    top: 1.2rem;
-    left: 0.5rem;
-    margin-bottom: 0.5rem;
-    transition: all 0.3s;
-}
-
-.campo__texto:not(:placeholder-shown) + .campo__label, 
-.campo__texto:focus + .campo__label {
-    font-size: 0.75rem;
-    top: 0.25rem;
-}
-
-.campo__texto--input {
-    max-height: 50px;
-}
-
-.campo__texto--textarea {
-    resize: none;
-    max-height: 90px;
-}
-
-.form__btn {
-    width: auto;
-    max-width: 205px;
 }

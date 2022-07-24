@@ -49,6 +49,7 @@
     border-radius: 10px;
     text-decoration: none;
     color: var(--cor-fonte);
+    box-sizing: border-box;
 }
 
 .produto__link:hover,
@@ -62,6 +63,9 @@
 
 .produto__nome {
     color: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .produto__preco {
