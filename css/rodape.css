@@ -11,7 +11,8 @@
     gap: 1.5rem;
 }
 
-.redes__link:hover, .redes__link:focus {
+.redes__link:hover,
+.redes__link:focus {
     transition: 0.3s;
     opacity: 60%;
 }
