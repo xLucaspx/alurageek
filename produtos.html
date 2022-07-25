@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AluraGeek | Home</title>
-    <meta name="description" content="Loja online de produtos Geek e Nerd especialmente selecionados. Confira as promoções e ofertas exclusivas!">
+    <title>AluraGeek | Produtos</title>
+    <meta name="description" content="AluraGeek, sua loja online de produtos Geek e Nerd especialmente selecionados. Veja todos os produtos disponíveis!">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/reset.css">
@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/form.css">
@@ -36,24 +35,15 @@
                 <button type="button" class="pesquisa-produto__btn" aria-label="Pesquisar"></button>
             </div>
         </div>
-
-        <a href="login.html" class="btn-login btn-padrao btn-cor-2" role="button">Login</a>
     </header>
     <!-- Fim cabeçalho -->
     <main>
-        <section class="banner" id="conteudo-principal">
-            <div class="banner__conteudo container">
-                <h1 class="banner__titulo">Ofertas de Agosto</h1>
-                <h2 class="banner__descricao">Produtos selecionados com até 40% de desconto</h2>
-                <a href="produtos.html" class="banner__link btn-padrao btn-cor-1" role="button">Ver produtos</a>
-            </div>
-        </section>
-        <!-- Fim banner -->
-        <section class="produtos produtos--star-wars container">
+        <section class="produtos container" id="conteudo-principal">
             <div class="produtos-divisao">
-                <h3 class="produtos__titulo titulo-padrao">Star Wars</h3>
-                <a href="produtos.html" class="produtos__link">Ver tudo</a>
+                <h3 class="produtos__titulo titulo-padrao">Todos os produtos</h3>
+                <a href="cadastro-produto.html" class="btn-padrao btn-cor-1" role="button">Adicionar produto</a>
             </div>
+
             <ul class="produtos__lista">
                 <li class="produtos__card">
                     <a href="produtos.html" class="produto__link" title="Ver produto">
@@ -97,15 +87,6 @@
                         <p class="produto__preco">R$ 54,00</p>
                     </a>
                 </li>
-            </ul>
-        </section>
-        <!-- Fim produtos Star Wars -->
-        <section class="produtos produtos--consoles container">
-            <div class="produtos-divisao">
-                <h3 class="produtos__titulo titulo-padrao">Consoles</h3>
-                <a href="produtos.html" class="produtos__link">Ver tudo</a>
-            </div>
-            <ul class="produtos__lista">
                 <li class="produtos__card">
                     <a href="produtos.html" class="produto__link" title="Ver produto">
                         <img src="img/produtos-consoles/produtos-consoles_1.png" alt="Console Playstation 4 pro na cor preta" width="176" height="174" class="produto__img">
@@ -148,60 +129,52 @@
                         <p class="produto__preco">R$ 489,00</p>
                     </a>
                 </li>
-            </ul>
+                <ul class="produtos__lista">
+                    <li class="produtos__card">
+                        <a href="produtos.html" class="produto__link" title="Ver produto">
+                            <img src="img/produtos-vestuario/produtos-vestuario_1.png" alt="Camiseta com estampa é melhor ter paz do que estar certo e ilustração do Senhor K meditando como um monge" width="176" height="174" class="produto__img">
+                            <h4 class="produto__nome">Camiseta Sr. K</h4>
+                            <p class="produto__preco">R$ 79,90</p>
+                        </a>
+                    </li>
+                    <li class="produtos__card">
+                        <a href="produtos.html" class="produto__link" title="Ver produto">
+                            <img src="img/produtos-vestuario/produtos-vestuario_2.png" alt="Camiseta com ilustração de Rocky Balboa e frase it ain't about how hard you hit" width="176" height="174" class="produto__img">
+                            <h4 class="produto__nome">Camiseta Rocky Balboa</h4>
+                            <p class="produto__preco">R$ 79,90</p>
+                        </a>
+                    </li>
+                    <li class="produtos__card">
+                        <a href="produtos.html" class="produto__link" title="Ver produto">
+                            <img src="img/produtos-vestuario/produtos-vestuario_3.png" alt="Camiseta com ilustração do crânio do personagem Kratos com suas espadas cruzadas por trás" width="176" height="174" class="produto__img">
+                            <h4 class="produto__nome">Camiseta Kratos Skull</h4>
+                            <p class="produto__preco">R$ 79,90</p>
+                        </a>
+                    </li>
+                    <li class="produtos__card">
+                        <a href="produtos.html" class="produto__link" title="Ver produto">
+                            <img src="img/produtos-vestuario/produtos-vestuario_4.png" alt="Camiseta com estampa conceitual do filme Pulp Fiction" width="176" height="174" class="produto__img">
+                            <h4 class="produto__nome">Camiseta Pulp Fiction</h4>
+                            <p class="produto__preco">R$ 79,90</p>
+                        </a>
+                    </li>
+                    <li class="produtos__card">
+                        <a href="produtos.html" class="produto__link" title="Ver produto">
+                            <img src="img/produtos-vestuario/produtos-vestuario_5.png" alt="Camiseta com estampa de Rick e Morty" width="176" height="174" class="produto__img">
+                            <h4 class="produto__nome">Camiseta Rick & Morty</h4>
+                            <p class="produto__preco">R$ 79,90</p>
+                        </a>
+                    </li>
+                    <li class="produtos__card">
+                        <a href="produtos.html" class="produto__link" title="Ver produto">
+                            <img src="img/produtos-vestuario/produtos-vestuario_6.png" alt="Camiseta com estampa conceitual do guia do mochileiro das galáxias" width="176" height="174" class="produto__img">
+                            <h4 class="produto__nome">Camiseta Don't Panic</h4>
+                            <p class="produto__preco">R$ 79,90</p>
+                        </a>
+                    </li>
+                </ul>
         </section>
-        <!-- Fim produtos consoles -->
-        <section class="produtos produtos--vestuario container">
-            <div class="produtos-divisao">
-                <h3 class="produtos__titulo titulo-padrao">Vestuário</h3>
-                <a href="produtos.html" class="produtos__link">Ver tudo</a>
-            </div>
-            <ul class="produtos__lista">
-                <li class="produtos__card">
-                    <a href="produtos.html" class="produto__link" title="Ver produto">
-                        <img src="img/produtos-vestuario/produtos-vestuario_1.png" alt="Camiseta com estampa é melhor ter paz do que estar certo e ilustração do Senhor K meditando como um monge" width="176" height="174" class="produto__img">
-                        <h4 class="produto__nome">Camiseta Sr. K</h4>
-                        <p class="produto__preco">R$ 79,90</p>
-                    </a>
-                </li>
-                <li class="produtos__card">
-                    <a href="produtos.html" class="produto__link" title="Ver produto">
-                        <img src="img/produtos-vestuario/produtos-vestuario_2.png" alt="Camiseta com ilustração de Rocky Balboa e frase it ain't about how hard you hit" width="176" height="174" class="produto__img">
-                        <h4 class="produto__nome">Camiseta Rocky Balboa</h4>
-                        <p class="produto__preco">R$ 79,90</p>
-                    </a>
-                </li>
-                <li class="produtos__card">
-                    <a href="produtos.html" class="produto__link" title="Ver produto">
-                        <img src="img/produtos-vestuario/produtos-vestuario_3.png" alt="Camiseta com ilustração do crânio do personagem Kratos com suas espadas cruzadas por trás" width="176" height="174" class="produto__img">
-                        <h4 class="produto__nome">Camiseta Kratos Skull</h4>
-                        <p class="produto__preco">R$ 79,90</p>
-                    </a>
-                </li>
-                <li class="produtos__card">
-                    <a href="produtos.html" class="produto__link" title="Ver produto">
-                        <img src="img/produtos-vestuario/produtos-vestuario_4.png" alt="Camiseta com estampa conceitual do filme Pulp Fiction" width="176" height="174" class="produto__img">
-                        <h4 class="produto__nome">Camiseta Pulp Fiction</h4>
-                        <p class="produto__preco">R$ 79,90</p>
-                    </a>
-                </li>
-                <li class="produtos__card">
-                    <a href="produtos.html" class="produto__link" title="Ver produto">
-                        <img src="img/produtos-vestuario/produtos-vestuario_5.png" alt="Camiseta com estampa de Rick e Morty" width="176" height="174" class="produto__img">
-                        <h4 class="produto__nome">Camiseta Rick & Morty</h4>
-                        <p class="produto__preco">R$ 79,90</p>
-                    </a>
-                </li>
-                <li class="produtos__card">
-                    <a href="produtos.html" class="produto__link" title="Ver produto">
-                        <img src="img/produtos-vestuario/produtos-vestuario_6.png" alt="Camiseta com estampa conceitual do guia do mochileiro das galáxias" width="176" height="174" class="produto__img">
-                        <h4 class="produto__nome">Camiseta Don't Panic</h4>
-                        <p class="produto__preco">R$ 79,90</p>
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <!-- Fim produtos vestuário -->
+        <!-- Fim produtos -->
         <section class="contato container">
             <img src="img/logo-alurageek.svg" alt="Logotipo da loja Alura Geek" width="180" height="50" class="contato__logo">
 
@@ -235,7 +208,7 @@
             </form>
         </section>
         <!-- Fim contato -->
-    </main> 
+    </main>
     <footer class="rodape container">
         <p class="creditos">&copy; Desenvolvido por Lucas da Paz - 2022</p>
 
@@ -252,5 +225,6 @@
         </ul>
     </footer>
     <!-- Fim rodapé -->
+    </main>
 </body>
 </html>

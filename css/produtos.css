@@ -8,7 +8,7 @@
 .produtos-divisao {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .produtos__link {
@@ -38,6 +38,7 @@
 .produtos__lista {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .produto__link {
@@ -50,6 +51,7 @@
     text-decoration: none;
     color: var(--cor-fonte);
     box-sizing: border-box;
+    margin-bottom: 2rem;
 }
 
 .produto__link:hover,

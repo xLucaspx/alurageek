@@ -33,7 +33,7 @@
     font-family: inherit;
     color: inherit;
     font-size: inherit;
-    border: none;
+    border: 2px solid transparent;
     padding: 0.75rem;
     margin: 10px 10px 0;
 }

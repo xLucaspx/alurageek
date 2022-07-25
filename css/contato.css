@@ -5,11 +5,7 @@
     line-height: 1.2;
 }
 
-.contato__logo {
-    flex-grow: 1;
-}
-
-.nav {
+.contato__logo, .nav {
     flex-grow: 1;
 }
 
@@ -19,7 +15,7 @@
 }
 
 .nav__lista {
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .nav__link {
