@@ -1,6 +1,7 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho__link:hover,
@@ -53,4 +54,55 @@
 .pesquisa-produto__btn:focus {
     transform: scale(1.1);
     filter: invert(20%) sepia(42%) saturate(5202%) hue-rotate(206deg) brightness(94%) contrast(101%);
+}
+
+@media screen 
+and (min-width: 350px)
+and (max-width: 767px) {
+    .cabecalho {
+        gap: 1rem;
+    }
+    
+    .cabecalho-divisao {
+        gap: 1rem;
+    }
+
+    .cabecalho__img {
+        width: 100px;
+        height: auto;
+    }
+        
+    .pesquisa-produto {
+        width: 25px;
+        height: 40px
+    }
+
+    .pesquisa-produto__input {
+        display: none;
+    }
+
+    .btn-login {
+        order: 1;
+    }
+}
+
+@media screen 
+and (min-width: 768px)
+and (max-width: 1259px) {
+    .cabecalho {
+        gap: 1.2rem;
+        align-items: center;
+    }
+    .cabecalho-divisao {
+        gap: 1.2rem;
+    }
+
+    .cabecalho__img {
+        width: 125px;
+        height: auto;
+    }
+
+    .pesquisa-produto {
+        width: 325px;
+    }
 }

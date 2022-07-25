@@ -89,3 +89,32 @@ body {
     font-size: 2rem;
     font-weight: 700;
 }
+
+@media screen 
+and (min-width: 350px)
+and (max-width: 767px) {
+    .container {
+        padding: 2rem;
+    }
+
+    .btn-padrao {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 175px;
+        height: 42px;
+    }
+}
+
+@media screen 
+and (min-width: 768px)
+and (max-width: 1259px) {
+    .container {
+        padding: 2.5rem;
+    }
+
+    .btn-padrao {
+        width: 205px;
+        height: 45px;
+        padding: 0.75rem 1rem;
+    }
+}

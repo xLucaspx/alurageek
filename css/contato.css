@@ -1,20 +1,21 @@
-.contato {
+.contato, .contato-divisao {
     display: flex;
-    justify-content: space-between;
     background-color: var(--azul-claro);
     line-height: 1.2;
 }
 
-.contato__logo, .nav {
+.contato {
+    justify-content: space-between;
+}
+
+.contato-divisao {
     flex-grow: 1;
+    gap: 5rem;
 }
 
 .nav__lista {
     display: flex;
     flex-direction: column;
-}
-
-.nav__lista {
     gap: 2.5rem;
 }
 
@@ -33,4 +34,35 @@
 .contato__form {
     gap: 0.75rem;
     flex-grow: 2;
+}
+
+@media screen 
+and (min-width: 350px) 
+and (max-width: 767px) {
+    .contato, .contato-divisao {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .nav {
+        text-align: center;
+    }
+
+    .nav__lista {
+        gap: 1rem;
+    }
+}
+
+@media screen 
+and (min-width: 768px)
+and (max-width: 1259px) {
+    .contato-divisao {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .nav__lista {
+        gap: 1.2rem;
+    }
 }

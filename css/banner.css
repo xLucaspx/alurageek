@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
+    box-sizing: border-box;
 }
 
 .banner__conteudo {
@@ -27,4 +28,50 @@
 
 .banner__link {
     margin-bottom: 2rem;
+}
+
+@media screen 
+and (min-width: 350px)
+and (max-width: 767px) {
+    .banner {
+        height: 245px;
+        background-size: 100vw 245px;
+    }
+
+    .banner__conteudo {
+        padding: 4.5rem 1rem 0.5rem;
+        gap: 1rem;
+    }
+
+    .banner__titulo {
+        font-size: 1.5rem;
+    }
+
+    .banner__descricao {
+        font-size: 1rem;
+    }
+
+    .banner__link {
+        margin-bottom: 0;
+    }
+}
+
+@media screen 
+and (min-width: 768px)
+and (max-width: 1259px) {
+    .banner {
+        height: 290px;
+    }
+
+    .banner__conteudo {
+        padding: 5rem 2rem 0.5rem;
+    }
+
+    .banner__titulo {
+        font-size: 2rem;
+    }
+
+    .banner__link {
+        margin-bottom: 0;
+    }
 }
