@@ -13,8 +13,7 @@
     flex-grow: 1;
 }
 
-.nav__lista,
-.contato__form {
+.nav__lista {
     display: flex;
     flex-direction: column;
 }
@@ -38,8 +37,4 @@
 .contato__form {
     gap: 0.75rem;
     flex-grow: 2;
-}
-
-.contato__descricao--destaque {
-    font-weight: 700;
 }

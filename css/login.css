@@ -1,28 +1,14 @@
 .login {
     background-color: var(--cinza-claro);
-    height: 50vh;
     text-align: center;
-    padding-top: 15vh;
 }
 
 .form__login {
     max-width: 425px;
     min-width: 275px;
-    margin: 0 auto;
-}
-
-.login__texto {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 2.5rem;
+    margin: 2rem auto 0;
 }
 
 .form__campo--login {
     margin-bottom: 1.5rem;
 }
-
-.form__btn--login {
-    margin: 0 auto;
-    width: 100%;
-}
-

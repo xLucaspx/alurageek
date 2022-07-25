@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AluraGeek | Login</title>
-    <meta name="description" content="Página de login da AluraGeek. Entre na sua conta ou, caso ainda não possua uma, cadastre-se!">
+    <title>Cadastro de produto</title>
+    <meta name="description"
+        content="Loja online de produtos Geek e Nerd especialmente selecionados. Confira as promoções e ofertas exclusivas!">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/reset.css">
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/rodape.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro-produto.css">
 </head>
 <body>
     <a href="#conteudo-principal" class="pular-navegacao">Pular para o conteúdo principal</a>
@@ -35,30 +36,46 @@
                 <button type="button" class="pesquisa-produto__btn" aria-label="Pesquisar"></button>
             </div>
         </div>
+
+        <button class="btn-padrao btn-cor-2">Menu administrador</button>
     </header>
     <!-- Fim cabeçalho -->
     <main>
-        <section class="login container" id="conteudo-principal">
-            <form action="" class="form__login form-padrao">
-                <p class="form__titulo form__descricao--destaque">Iniciar sessão</p>
+        <section class="cadastro-produto container" id="conteudo-principal">
+            <form action="" class="cadastro-produto__form form-padrao">
+                <p class="form__titulo form__descricao--destaque">Adicionar novo produto</p>
 
-                <fieldset class="form__campo form__campo--login">
-                    <input type="email" name="email" id="login__email" class="campo__texto" placeholder="Digite seu email">
-                    <label for="login__email" class="campo__label">Email</label>
-                    <span class="form__erro form__erro--email"></span>
+                <fieldset class="form__campo">
+                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__imagem" name="imagem" placeholder="Digite o endereço URL da imagem" required>
+                    <label for="cadastro-produto__imagem" class="campo__label">URL da imagem</label>
+                    <span class="form__erro form__erro--imagem"></span>
                 </fieldset>
-                <fieldset class="form__campo form__campo--login">
-                    <input type="password" name="senha" id="login__senha" class="campo__texto" placeholder="Digite sua senha">
-                    <label for="login__senha" class="campo__label">Senha</label>
-                    <span class="form__erro form__erro--senha"></span>
+                <fieldset class="form__campo">
+                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__categoria" name="categoria" placeholder="Digite a categoria do produto" required>
+                    <label for="cadastro-produto__categoria" class="campo__label">Categoria</label>
+                    <span class="form__erro form__erro--categoria"></span>
                 </fieldset>
-                <fieldset class="form__campo--botoes">
-                    <button type="submit" class="form__btn form__btn--grande btn-padrao btn-cor-1">Entrar</button>
-                    <a href="cadastro-cliente.html" class="form__btn form__btn--grande btn-padrao btn-cor-2" role="button">Cadastre-se</a>
+                <fieldset class="form__campo">
+                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__nome-produto" name="nome-produto" placeholder="Digite o nome do produto" required>
+                    <label for="cadastro-produto__nome-produto" class="campo__label">Nome do produto</label>
+                    <span class="form__erro form__erro--nome-produto"></span>
+                </fieldset>
+                <fieldset class="form__campo">
+                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__preco" name="preco" placeholder="Digite o preco do produto" required>
+                    <label for="cadastro-produto__preco" class="campo__label">Preço do produto</label>
+                    <span class="form__erro form__erro--preco"></span>
+                </fieldset>
+                <fieldset class="form__campo">
+                    <textarea name="descricao" class="campo__texto campo__texto--textarea" id="cadastro-produto__descricao" cols="30" rows="10" placeholder="Descreva o produto" required></textarea>
+                    <label for="ccadastro-produto__descricao" class="campo__label">Descrição do produto</label>
+                    <span class="form__erro form__erro--descricao"></span>
+                </fieldset>
+                <fieldset>
+                    <button type="submit" class="form__btn form__btn--grande btn-padrao btn-cor-1">Adicionar produto</button>
                 </fieldset>
             </form>
         </section>
-        <!-- Fim login -->
+        <!-- Fim cadastro de produto -->
         <section class="contato container">
             <img src="img/logo-alurageek.svg" alt="Logotipo da loja Alura Geek" width="180" height="50" class="contato__logo">
 

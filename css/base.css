@@ -36,24 +36,21 @@ body {
 }
 
 .container {
-    padding: 2.5rem 5rem;
+    padding: 3rem 5rem;
 }
 
 .btn-padrao {
     display: block;
     text-align: center;
     cursor: pointer;
-    width: 180px;
     height: 50px;
     box-sizing: border-box;
     overflow: hidden;
     outline: none;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
-    color: var(--branco);
     font-size: 1.2rem;
     font-weight: 300;
-    background-color: var(--azul);
     border: 1px solid var(--azul);
     border-radius: 7px;
     box-shadow: 2px 5px 12px 5px #00000025;
@@ -63,9 +60,28 @@ body {
 .btn-padrao:hover,
 .btn-padrao:focus {
     box-shadow: 7px 10px 17px 5px #00000045;
+}
+
+.btn-cor-1 {
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
+.btn-cor-1:hover,
+.btn-cor-1:focus {
     color: var(--azul);
     background-color: var(--branco);
-    font-weight: 400;
+}
+
+.btn-cor-2 {
+    color: var(--azul);
+    background-color: var(--branco);
+}
+
+.btn-cor-2:hover,
+.btn-cor-2:focus {
+    color: var(--branco);
+    background-color: var(--azul);
 }
 
 .titulo-padrao {
