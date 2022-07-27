@@ -41,6 +41,10 @@
     flex-wrap: wrap;
 }
 
+.produtos__card {
+    position: relative;
+}
+
 .produto__link {
     display: flex;
     flex-direction: column;
@@ -56,7 +60,7 @@
 
 .produto__link:hover,
 .produto__link:focus, 
-.produto__link:active {
+.produtos__botoes:hover {
     transition: 0.5s ease-in-out;
     box-shadow: 7px 7px 7px #00000050;
     background-color: var(--branco);
@@ -74,6 +78,46 @@
 .produto__preco {
     font-weight: 700;
     color: inherit;
+}
+
+.produtos__botoes {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    box-sizing: border-box;
+}
+
+.produto__btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.produto__btn--editar {
+    background: url("../img/editar-branco.svg") no-repeat center;
+}
+
+.produto__btn--editar:hover,
+.produto__btn--editar:focus {
+    background: url("../img/editar-azul.svg") no-repeat center;
+}
+
+.produto__btn--deletar {
+    background: url("../img/deletar-branco.svg") no-repeat center;
+}
+
+.produto__btn--deletar:hover,
+.produto__btn--deletar:focus {
+    background: url("../img/deletar-azul.svg") no-repeat center;
 }
 
 @media screen 
