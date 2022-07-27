@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "name": "alurageek-challenge",
+  "version": "1.0.0",
+  "description": "Projeto: site de e-commerce utilizando HTML, CSS e Javascript desenvolvido durante programa Oracle Next Education",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xLucaspx/alurageek"
+  },
+  "author": "Lucaspx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xLucaspx/alurageek/issues"
+  },
+  "homepage": "https://xlucaspx.github.io/alurageek/index.html"
+}
