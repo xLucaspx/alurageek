@@ -43,12 +43,12 @@
                 <p class="form__titulo form__descricao--destaque">Iniciar sessão</p>
 
                 <fieldset class="form__campo form__campo--login">
-                    <input type="email" name="email" id="login__email" class="campo__texto" placeholder="Digite seu email">
+                    <input type="email" name="email" id="login__email" class="campo__texto" placeholder="Digite seu email" data-email required>
                     <label for="login__email" class="campo__label">Email</label>
                     <span class="form__erro form__erro--email"></span>
                 </fieldset>
                 <fieldset class="form__campo form__campo--login">
-                    <input type="password" name="senha" id="login__senha" class="campo__texto" placeholder="Digite sua senha">
+                    <input type="password" name="senha" id="login__senha" class="campo__texto" placeholder="Digite sua senha" data-senha required>
                     <label for="login__senha" class="campo__label">Senha</label>
                     <span class="form__erro form__erro--senha"></span>
                 </fieldset>
@@ -79,12 +79,12 @@
                 <p class="form__descricao"><strong class="form__descricao--destaque">Fale conosco!</strong><br>Preencha os campos abaixo e envie sua mensagem</p>
 
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="contato__nome" name="name" placeholder="Digite seu nome" required>
+                    <input type="text" class="campo__texto campo__texto--input" id="contato__nome" name="name" placeholder="Digite seu nome" data-nome required>
                     <label for="contato__nome" class="campo__label">Nome</label>
                     <span class="form__erro form__erro--nome"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <textarea name="body" class="campo__texto campo__texto--textarea" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <textarea name="body" class="campo__texto campo__texto--textarea" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" data-mensagem required></textarea>
                     <label for="contato__mensagem" class="campo__label">Mensagem</label>
                     <span class="form__erro form__erro--mensagem"></span>
                 </fieldset>

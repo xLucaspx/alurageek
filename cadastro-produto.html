@@ -40,27 +40,27 @@
                 <p class="form__titulo form__descricao--destaque">Adicionar novo produto</p>
 
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__imagem" name="imagem" placeholder="Digite o endereço URL da imagem" required>
+                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__imagem" name="imagem" placeholder="Digite o endereço URL da imagem" data-url-imagem required>
                     <label for="cadastro-produto__imagem" class="campo__label">URL da imagem</label>
                     <span class="form__erro form__erro--imagem"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__categoria" name="categoria" placeholder="Digite a categoria do produto" required>
+                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__categoria" name="categoria" placeholder="Digite a categoria do produto" data-categoria required>
                     <label for="cadastro-produto__categoria" class="campo__label">Categoria</label>
                     <span class="form__erro form__erro--categoria"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__nome-produto" name="nome-produto" placeholder="Digite o nome do produto" required>
+                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__nome-produto" name="nome-produto" placeholder="Digite o nome do produto" data-nome-produto required>
                     <label for="cadastro-produto__nome-produto" class="campo__label">Nome do produto</label>
                     <span class="form__erro form__erro--nome-produto"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__preco" name="preco" placeholder="Digite o preco do produto" required>
+                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__preco" name="preco" placeholder="Digite o preco do produto" data-preco required>
                     <label for="cadastro-produto__preco" class="campo__label">Preço do produto</label>
                     <span class="form__erro form__erro--preco"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <textarea name="descricao" class="campo__texto campo__texto--textarea" id="cadastro-produto__descricao" cols="30" rows="10" placeholder="Descreva o produto" required></textarea>
+                    <textarea name="descricao" class="campo__texto campo__texto--textarea" id="cadastro-produto__descricao" cols="30" rows="10" placeholder="Descreva o produto" data-descricao required></textarea>
                     <label for="ccadastro-produto__descricao" class="campo__label">Descrição do produto</label>
                     <span class="form__erro form__erro--descricao"></span>
                 </fieldset>
@@ -90,12 +90,12 @@
                 <p class="form__descricao"><strong class="form__descricao--destaque">Fale conosco!</strong><br>Preencha os campos abaixo e envie sua mensagem</p>
 
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="contato__nome" name="name" placeholder="Digite seu nome" required>
+                    <input type="text" class="campo__texto campo__texto--input" id="contato__nome" name="name" placeholder="Digite seu nome" data-nome required>
                     <label for="contato__nome" class="campo__label">Nome</label>
                     <span class="form__erro form__erro--nome"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <textarea name="body" class="campo__texto campo__texto--textarea" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <textarea name="body" class="campo__texto campo__texto--textarea" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" data-mensagem required></textarea>
                     <label for="contato__mensagem" class="campo__label">Mensagem</label>
                     <span class="form__erro form__erro--mensagem"></span>
                 </fieldset>
