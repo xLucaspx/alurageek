@@ -35,7 +35,7 @@
     font-size: inherit;
     border-color: transparent;
     border-bottom: 2px solid var(--cinza-medio);
-    padding: 0.75rem;
+    padding: 0.75rem 0.75rem 0.25rem;
     margin: 10px 10px 0;
 }
 
@@ -72,8 +72,20 @@
     max-height: 90px;
 }
 
+.campo__texto--invalido {
+    border-bottom: 2px solid var(--vermelho);
+}
+
+.campo__texto--valido {
+    border-bottom: 2px solid var(--verde);
+}
+
 .form__erro {
     height: 18px;
+    margin-left: calc(10px + 0.75rem);
+    margin-bottom: 2px;
+    text-align: left;
+    color: var(--vermelho);
 }
 
 .form__btn {

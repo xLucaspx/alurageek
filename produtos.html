@@ -266,14 +266,14 @@
                 <p class="form__descricao"><strong class="form__descricao--destaque">Fale conosco!</strong><br>Preencha os campos abaixo e envie sua mensagem</p>
 
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="contato__nome" name="name" placeholder="Digite seu nome" data-nome required>
+                    <input type="text" class="campo__texto campo__texto--input" id="contato__nome" name="name" placeholder="Digite seu nome" data-tipo="nome" maxlength="25" required>
                     <label for="contato__nome" class="campo__label">Nome</label>
-                    <span class="form__erro form__erro--nome"></span>
+                    <span class="form__erro"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <textarea name="body" class="campo__texto campo__texto--textarea" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" data-mensagem required></textarea>
+                    <textarea name="body" class="campo__texto campo__texto--textarea" id="contato__mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" data-tipo="mensagem" maxlength="200" required></textarea>
                     <label for="contato__mensagem" class="campo__label">Mensagem</label>
-                    <span class="form__erro form__erro--mensagem"></span>
+                    <span class="form__erro"></span>
                 </fieldset>
                 <fieldset>
                     <button type="submit" class="form__btn btn-padrao btn-cor-1">Enviar mensagem</button>
@@ -298,5 +298,6 @@
         </ul>
     </footer>
     <!-- Fim rodapé -->
+    <script src="js/validacao-form.js"></script>
 </body>
 </html>
