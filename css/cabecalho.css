@@ -27,10 +27,10 @@
 }
 
 .pesquisa-produto__input {
-    border: none;
     outline: none;
+    border: 2px solid transparent;
     background-color: transparent;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1rem 0.25rem;
     flex-grow: 3;
     font-family: inherit;
     color: inherit;

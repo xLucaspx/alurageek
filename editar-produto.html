@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cadastro de produto</title>
+    <title>Editar produto</title>
     <meta name="description" content="AluraGeek, sua loja online de produtos Geek e Nerd especialmente selecionados. Cadastre um novo produto!">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -35,41 +35,41 @@
     </header>
     <!-- Fim cabeçalho -->
     <main>
-        <section class="cadastro-produto container" id="conteudo-principal">
-            <form action="" class="cadastro-produto__form form-padrao">
-                <p class="form__titulo form__descricao--destaque">Adicionar novo produto</p>
+        <section class="editar-produto container" id="conteudo-principal">
+            <form action="" class="editar-produto__form form-padrao">
+                <p class="form__titulo form__descricao--destaque">Editar produto</p>
 
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__imagem" name="imagem" placeholder="Digite o endereço URL da imagem" data-tipo="urlImagem" required>
-                    <label for="cadastro-produto__imagem" class="campo__label">URL da imagem</label>
+                    <input type="text" class="campo__texto campo__texto--input" id="editar-produto__imagem" name="imagem" placeholder="Digite o endereço URL da imagem" data-tipo="urlImagem" required>
+                    <label for="editar-produto__imagem" class="campo__label">URL da imagem</label>
                     <span class="form__erro"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__alt" name="alt" placeholder="Digite a descrição da imagem do produto" data-tipo="alt" required>
-                    <label for="cadastro-produto__alt" class="campo__label">Descrição da imagem</label>
+                    <input type="text" class="campo__texto campo__texto--input" id="editar-produto__alt" name="alt" placeholder="Digite a descrição da imagem do produto" data-tipo="alt" required>
+                    <label for="editar-produto__alt" class="campo__label">Descrição da imagem</label>
                     <span class="form__erro"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__nome-produto" name="nome-produto" placeholder="Digite o nome do produto" data-tipo="nomeProduto" maxlength="21" required>
-                    <label for="cadastro-produto__nome-produto" class="campo__label">Nome do produto</label>
+                    <input type="text" class="campo__texto campo__texto--input" id="editar-produto__nome-produto" name="nome-produto" placeholder="Digite o nome do produto" data-tipo="nomeProduto" maxlength="21" required>
+                    <label for="editar-produto__nome-produto" class="campo__label">Nome do produto</label>
                     <span class="form__erro"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <input type="number" class="campo__texto campo__texto--input" id="cadastro-produto__preco" name="preco" placeholder="Digite o preco do produto" data-tipo="preco" pattern="^([\d]+[.][\d]{0,2})|([\d]+)$" min="0.01" step="any" required>
-                    <label for="cadastro-produto__preco" class="campo__label">Preço do produto</label>
+                    <input type="number" class="campo__texto campo__texto--input" id="editar-produto__preco" name="preco" placeholder="Digite o preco do produto" data-tipo="preco" pattern="^([\d]+[.][\d]{0,2})|([\d]+)$" min="0.01" step="any" required>
+                    <label for="editar-produto__preco" class="campo__label">Preço do produto</label>
                     <span class="form__erro"></span>
                 </fieldset>
                 <fieldset class="form__campo">
-                    <textarea name="descricao" class="campo__texto campo__texto--textarea" id="cadastro-produto__descricao" cols="30" rows="10" placeholder="Descreva o produto" data-tipo="descricao" maxlength="200" required></textarea>
-                    <label for="cadastro-produto__descricao" class="campo__label">Descrição do produto</label>
+                    <textarea name="descricao" class="campo__texto campo__texto--textarea" id="editar-produto__descricao" cols="30" rows="10" placeholder="Descreva o produto" data-tipo="descricao" maxlength="200" required></textarea>
+                    <label for="editar-produto__descricao" class="campo__label">Descrição do produto</label>
                     <span class="form__erro"></span>
                 </fieldset>
                 <fieldset>
-                    <button type="submit" class="form__btn form__btn--grande btn-padrao btn-cor-1">Adicionar produto</button>
+                    <button type="submit" class="form__btn form__btn--grande btn-padrao btn-cor-1">Confirmar alterações</button>
                 </fieldset>
             </form>
         </section>
-        <!-- Fim cadastro de produto -->
+        <!-- Fim editar produto -->
         <section class="contato container">
             <div class="contato-divisao">
                 <img src="img/logo-alurageek.svg" alt="Logotipo da loja Alura Geek" width="180" height="50" class="contato__logo">
@@ -123,6 +123,6 @@
     </footer>
     <!-- Fim rodapé -->
     <script src="js/validacao-form.js"></script>
-    <script src="js/cadastra-produto.js" type="module"></script>
+    <script src="js/edita-produto.js" type="module"></script>
 </body>
 </html>

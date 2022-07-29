@@ -1,9 +1,9 @@
-.cadastro-produto {
+.cadastro-produto, .editar-produto {
     background-color: var(--cinza-claro);
     text-align: center;
 }
 
-.cadastro-produto__form {
+.cadastro-produto__form, .editar-produto__form {
     max-width: 560px;
     margin: 0 auto;
     gap: 1rem;

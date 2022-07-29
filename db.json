@@ -1,0 +1,148 @@
+{
+  "produtos": [
+    {
+      "urlImagem": "img/produtos-sw/produto-sw_1.png",
+      "altImagem": "Camiseta temática de Star Wars com personagens em formato cartoon",
+      "nome": "Camiseta Star Wars",
+      "preco": "47.90",
+      "descricao": "Camiseta temática de Star Wars com letreiro característico e vários personagens estampados em formato cartoon. Esta é uma peça que não pode faltar no guarda-roupas de um fã!",
+      "id": 1
+    },
+    {
+      "urlImagem": "img/produtos-sw/produto-sw_2.png",
+      "altImagem": "Caneca de cerâmica no formato do capacete dos Stormtroopers",
+      "nome": "Caneca Stormtrooper",
+      "preco": "27.99",
+      "descricao": "Caneca temática de Star Wars no formato de um capacete de Stormtrooper. Produzida com material de ótima qualidade e design cuidadoso, é ideal para o consume de suas bebidas quentes!",
+      "id": 2
+    },
+    {
+      "urlImagem": "img/produtos-sw/produto-sw_3.png",
+      "altImagem": "Boneco articulado com armadura dos Stormtroopers",
+      "nome": "Boneco Stormtrooper",
+      "preco": "37.89",
+      "descricao": "Boneco Stormtrooper articulado com blaster e armadura. Produzido com materiais de ótima qualidade e design cuidadoso, é ideal tanto para colecionadores mais velhos quanto para crianças e jovens!",
+      "id": 3
+    },
+    {
+      "urlImagem": "img/produtos-sw/produto-sw_4.png",
+      "altImagem": "Boneco de pelúcia baby Yoda",
+      "nome": "Pelúcia Baby Yoda",
+      "preco": "32.49",
+      "descricao": "Agora você pode adquirir o personagem mais fofo de Star Wars no formato pelúcia. Este Baby Yoda é produzido com materiais hipoalergênicos e é ideal tanto para fãs colecionadores quanto para crianças!",
+      "id": 4
+    },
+    {
+      "urlImagem": "img/produtos-sw/produto-sw_5.png",
+      "altImagem": "Boneco articulado Kylo Ren com máscara",
+      "nome": "Boneco Kylo Ren",
+      "preco": "37.89",
+      "descricao": "Boneco Kylo Ren articulado com sabre de luz e máscara. Produzido com materiais de ótima qualidade e design cuidadoso, é ideal tanto para colecionadores mais velhos quanto para crianças e jovens!",
+      "id": 5
+    },
+    {
+      "urlImagem": "img/produtos-sw/produto-sw_6.png",
+      "altImagem": "Estátua Mestre Yoda",
+      "nome": "Estátua Mestre Yoda",
+      "preco": "54.00",
+      "descricao": "Estátua decorativa Mestre Yoda em escala 1:6. Produzida com materiais de altíssima qualidade e design extremamente cuidadoso, é uma peça ideal para colecionadores exigentes e grandes fãs de Star Wars!",
+      "id": 6
+    },
+    {
+      "urlImagem": "img/produtos-consoles/produtos-consoles_1.png",
+      "altImagem": "Console Playstation 4 pro na cor preta",
+      "nome": "PS4 Pro 1TB",
+      "preco": "2850.49",
+      "descricao": "Console Playstation 4 Pro com 1TB de memória e um controle Dualshock 4 na cor preta. Um dos grandes consoles dos últimos tempos, ideal para quem curte bons jogos com bastante desempenho e qualidade!",
+      "id": 7
+    },
+    {
+      "urlImagem": "img/produtos-consoles/produtos-consoles_2.png",
+      "altImagem": "Controle Dualshock 4 na cor preta",
+      "nome": "Controle Dualshock 4",
+      "preco": "299.90",
+      "descricao": "Controle Dualshock 4 na cor preta. Compatível com o console Playstation 4, ajudou a revolucionar a jogabilidade dos games com vibração, luzes e som que tornam a experiência de jogar mais imersiva!  ",
+      "id": 8
+    },
+    {
+      "urlImagem": "img/produtos-consoles/produtos-consoles_3.png",
+      "altImagem": "Console Playstation 5 Edição Digital na cor branca",
+      "nome": "PS5 - Edição Digital",
+      "preco": "4249.90",
+      "descricao": "Console Playstation 5 Edição Digital e um controle Dual Sense na cor branca. um dos grandes consoles da última geração de games, é ideal para quem gosta de jogos com muita imersão e qualidade!",
+      "id": 9
+    },
+    {
+      "urlImagem": "img/produtos-consoles/produtos-consoles_4.png",
+      "altImagem": "Controle Joy-Con Nintendo Switch nas cores azul e vermelho",
+      "nome": "Nintendo Joy-Con",
+      "preco": "350.00",
+      "descricao": "Controle Joy-Con nas cores azul e vermelho para Nintendo Switch. Garante total flexibilidade e diversão no seu jogo, sendo também possível dividir com um amigo para jogar em duplas!",
+      "id": 10
+    },
+    {
+      "urlImagem": "img/produtos-consoles/produtos-consoles_5.png",
+      "altImagem": "Console Xbox Series X na cor preta",
+      "nome": "Xbox Series X",
+      "preco": "4378.89",
+      "descricao": "Console Xbox Series X e um controle na cor preta. Um dos grandes consoles da última geração de games, é ideal para quem gosta de jogos com qualidade e potência!",
+      "id": 11
+    },
+    {
+      "urlImagem": "img/produtos-consoles/produtos-consoles_6.png",
+      "altImagem": "Controle para Xbox One na cor branca",
+      "nome": "Controle Xbox One",
+      "preco": "489.00",
+      "descricao": "Controle na cor branca compatível com Xbox One. Experimente o conforto de um controle sem fio com design anatômico e punho texturizado. ",
+      "id": 12
+    },
+    {
+      "urlImagem": "img/produtos-vestuario/produtos-vestuario_1.png",
+      "altImagem": "Camiseta com estampa é melhor ter paz do que estar certo e ilustração do Senhor K meditando como um monge",
+      "nome": "Camiseta Sr. K",
+      "preco": "79.90",
+      "descricao": "Camiseta do lendário Sr. K com sua famosa frase \"é melhor ter paz do que estar certo\". Indispensável no guarda-roupas de todos os nerds bípedes!",
+      "id": 13
+    },
+    {
+      "urlImagem": "img/produtos-vestuario/produtos-vestuario_2.png",
+      "altImagem": "Camiseta com ilustração de Rocky Balboa e frase it ain't about how hard you hit",
+      "nome": "Camiseta Rocky Balboa",
+      "preco": "79.90",
+      "descricao": "Camiseta do lendário personagem Rocky Balboa com sua famosa frase \"it ain't about how hard you hit\" do filme de 2006. Indispensável no guarda-roupas de todos os fãs do lutador!",
+      "id": 14
+    },
+    {
+      "urlImagem": "img/produtos-vestuario/produtos-vestuario_3.png",
+      "altImagem": "Camiseta com ilustração do crânio do personagem Kratos com suas espadas cruzadas por trás",
+      "nome": "Camiseta Kratos Skull",
+      "preco": "79.90",
+      "descricao": "Camiseta do icônico personagem Kratos com sua caveira barbuda e suas lendárias espadas do caos. Indispensável no guarda-roupas de todos os fãs do game!",
+      "id": 15
+    },
+    {
+      "urlImagem": "img/produtos-vestuario/produtos-vestuario_4.png",
+      "altImagem": "Camiseta com estampa conceitual do filme Pulp Fiction",
+      "nome": "Camiseta Pulp Fiction",
+      "preco": "79.90",
+      "descricao": "Camiseta do icônico filme Pulp Fiction, esta peça é recheada de referências à produção que não passarão despercebidas. É indispensável aos maiores fãs da obra-prima de Quentin tarantino!",
+      "id": 16
+    },
+    {
+      "urlImagem": "img/produtos-vestuario/produtos-vestuario_5.png",
+      "altImagem": "Camiseta com estampa de Rick e Morty",
+      "nome": "Camiseta Rick & Morty",
+      "preco": "79.90",
+      "descricao": "Camiseta com estampa da bombástica animação Rick and Morty, grande sucesso do Adult Swim que conquistou um público fiel nos últimos anos. É uma peça indispensável no guarda-roupas dos fãs!",
+      "id": 17
+    },
+    {
+      "urlImagem": "img/produtos-vestuario/produtos-vestuario_6.png",
+      "altImagem": "Camiseta com estampa conceitual do Guia do Mochileiro das Galáxias",
+      "nome": "Camiseta Don't Panic",
+      "preco": "79.9",
+      "descricao": "Camiseta conceitual do Guia do Mochileiro das Galáxias com a famosa expressão \"Don't panic!\" e formas de utilizar sua toalha estampadas. É uma peça indispensável à todos os verdadeiros nerds!",
+      "id": 18
+    }
+  ]
+}

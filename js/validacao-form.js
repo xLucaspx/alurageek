@@ -50,8 +50,8 @@
         urlImagem: {
             valueMissing: "O endereço da imagem deve ser preenchido"
         },
-        categoria: {
-            valueMissing: "O campo categoria deve ser preenchido"
+        alt: {
+            valueMissing: "A descrição da imagem deve ser preenchida"
         },
         nomeProduto: {
             valueMissing: "O nome do produto deve ser preenchido"
@@ -71,6 +71,6 @@
     inputs.forEach(input => {
         input.addEventListener("blur", () => {
             valida(input);
-        })
+        });
     });
 })();
