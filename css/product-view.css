@@ -1,0 +1,27 @@
+.product-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: var(--cinza-claro);
+}
+
+.product-view__img {
+    box-shadow: 5px 5px 10px 7px #00000030;
+}
+
+.product-view__divisao {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.product-view__preco {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.product-view__descricao {
+    font-size: 1.2rem;
+}

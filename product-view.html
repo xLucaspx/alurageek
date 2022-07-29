@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cadastro de produto</title>
-    <meta name="description" content="AluraGeek, sua loja online de produtos Geek e Nerd especialmente selecionados. Cadastre um novo produto!">
+    <title>AluraGeek</title>
+    <meta name="description" content="Loja online de produtos Geek e Nerd especialmente selecionados. Confira as promoções e ofertas exclusivas!">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/reset.css">
@@ -16,10 +16,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/rodape.css">
-    <link rel="stylesheet" href="css/cadastro-edicao-produto.css">
+    <link rel="stylesheet" href="css/product-view.css">
 </head>
 <body>
     <a href="#conteudo-principal" class="pular-navegacao">Pular para o conteúdo principal</a>
@@ -29,47 +30,29 @@
             <a href="index.html" class="cabecalho__link" title="Home Alura Geek">
                 <img src="img/logo-alurageek.svg" alt width="175" height="50" class="cabecalho__img">
             </a>
+    
+            <div class="pesquisa-produto">
+                <input type="text" class="pesquisa-produto__input" placeholder="O que deseja encontrar?" aria-label="Barra de pesquisa de produtos">
+                <button type="button" class="pesquisa-produto__btn" aria-label="Pesquisar"></button>
+            </div>
         </div>
 
-        <button class="btn-padrao btn-cor-2" role="button">Menu administrador</button>
+        <a href="login.html" class="btn-login btn-padrao btn-cor-2" role="button">Login</a>
     </header>
     <!-- Fim cabeçalho -->
     <main>
-        <section class="cadastro-produto container" id="conteudo-principal">
-            <form action="" class="cadastro-produto__form form-padrao">
-                <p class="form__titulo form__descricao--destaque">Adicionar novo produto</p>
+        <section class="product-view container" id="conteudo-principal"></section>
+        <!-- Fim product view -->
 
-                <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__imagem" name="imagem" placeholder="Digite o endereço URL da imagem" data-tipo="urlImagem" required>
-                    <label for="cadastro-produto__imagem" class="campo__label">URL da imagem</label>
-                    <span class="form__erro"></span>
-                </fieldset>
-                <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__alt" name="alt" placeholder="Digite a descrição da imagem do produto" data-tipo="alt" required>
-                    <label for="cadastro-produto__alt" class="campo__label">Descrição da imagem</label>
-                    <span class="form__erro"></span>
-                </fieldset>
-                <fieldset class="form__campo">
-                    <input type="text" class="campo__texto campo__texto--input" id="cadastro-produto__nome-produto" name="nome-produto" placeholder="Digite o nome do produto" data-tipo="nomeProduto" maxlength="21" required>
-                    <label for="cadastro-produto__nome-produto" class="campo__label">Nome do produto</label>
-                    <span class="form__erro"></span>
-                </fieldset>
-                <fieldset class="form__campo">
-                    <input type="number" class="campo__texto campo__texto--input" id="cadastro-produto__preco" name="preco" placeholder="Digite o preco do produto" data-tipo="preco" pattern="^([\d]+[.][\d]{0,2})|([\d]+)$" min="0.01" step="any" required>
-                    <label for="cadastro-produto__preco" class="campo__label">Preço do produto</label>
-                    <span class="form__erro"></span>
-                </fieldset>
-                <fieldset class="form__campo">
-                    <textarea name="descricao" class="campo__texto campo__texto--textarea" id="cadastro-produto__descricao" cols="30" rows="10" placeholder="Descreva o produto" data-tipo="descricao" maxlength="200" required></textarea>
-                    <label for="cadastro-produto__descricao" class="campo__label">Descrição do produto</label>
-                    <span class="form__erro"></span>
-                </fieldset>
-                <fieldset>
-                    <button type="submit" class="form__btn--grande btn-padrao btn-cor-1">Adicionar produto</button>
-                </fieldset>
-            </form>
+        <section class="produtos container">
+            <div class="produtos-divisao">
+                <h3 class="produtos__titulo titulo-padrao">Produtos similares</h3>
+                <a href="produtos.html" class="produtos__link">Ver tudo</a>
+            </div>
+            <ul class="produtos__lista"></ul>
         </section>
-        <!-- Fim cadastro de produto -->
+        <!-- Fim produtos similares -->
+
         <section class="contato container">
             <div class="contato-divisao">
                 <img src="img/logo-alurageek.svg" alt="Logotipo da loja Alura Geek" width="180" height="50" class="contato__logo">
@@ -122,7 +105,8 @@
         </ul>
     </footer>
     <!-- Fim rodapé -->
+    <script src="js/product-view.js" type="module"></script>
+    <script src="js/mostra-produtos-similares.js" type="module"></script>
     <script src="js/validacao-form.js"></script>
-    <script src="js/cadastra-produto.js" type="module"></script>
 </body>
 </html>

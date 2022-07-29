@@ -88,11 +88,6 @@
     color: var(--vermelho);
 }
 
-.form__btn {
-    font-family: inherit;
-    font-weight: inherit;
-}
-
 .form__btn--grande {
     width: 100%;
 }

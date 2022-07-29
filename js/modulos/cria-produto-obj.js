@@ -12,7 +12,7 @@ export const criaProdutoObj = async (urlImagem, altImagem, nome, preco, descrica
             descricao: descricao
         })
     });
-    
+
     if (resposta.ok) return resposta.body;
 
     throw new Error("Não foi possível adicionar o produto");
