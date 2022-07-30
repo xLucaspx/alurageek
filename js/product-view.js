@@ -14,7 +14,7 @@ import { criaProductView } from "./modulos/cria-product-view.js";
         const preco = dados.preco;
         const descricao = dados.descricao;
 
-        document.title = nome;
+        document.title = nome + " | AluraGeek";
         productView.appendChild(criaProductView(urlImagem, altImagem, nome, preco, descricao));
     } catch (erro) {
         console.log(erro);

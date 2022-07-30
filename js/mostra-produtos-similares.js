@@ -1,6 +1,6 @@
 import { buscaProdutos } from "./modulos/busca-produtos.js";
-import { criaProdutoCard } from "./modulos/cria-produto-card.js"
 import { detalhaProduto } from "./modulos/detalha-produto.js";
+import { criaProdutoCardSimples } from "./modulos/cria-produtos-similares.js";
 
 (async () => {
     let ids = [];
@@ -10,17 +10,15 @@ import { detalhaProduto } from "./modulos/detalha-produto.js";
 
     while (ids.length < 6) {
         let id = Math.floor(Math.random() * maximo);
-        
-        for (let i = 0; i < ids.length; i++) {
-            if (id == ids[i] || id <= 0) id++; 
-        }
-        
-        if (id > maximo) id--;
-        
-        ids.push(id); 
-    }
 
-    console.log(ids);
+        for (let i = 0; i < ids.length; i++) {
+            if (id == ids[i] || id <= 0) id++;
+        }
+
+        if (id > maximo) id--;
+
+        ids.push(id);
+    }
 
     ids.forEach(id => {
         detalhaProduto(id).then((dados) => {
@@ -28,8 +26,8 @@ import { detalhaProduto } from "./modulos/detalha-produto.js";
             const altImagem = dados.altImagem;
             const nome = dados.nome;
             const preco = dados.preco;
-            
-            const produto = criaProdutoCard(urlImagem, altImagem, nome, preco, id);
+
+            const produto = criaProdutoCardSimples(urlImagem, altImagem, nome, preco, id);
             listaProdutos.appendChild(produto);
         });
     });
