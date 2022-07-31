@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/rodape.css">
@@ -30,14 +31,14 @@
                 <img src="img/logo-alurageek.svg" alt width="175" height="50" class="cabecalho__img">
             </a>
     
-            <div class="pesquisa-produto">
-                <input type="text" class="pesquisa-produto__input" placeholder="O que deseja encontrar?" aria-label="Barra de pesquisa de produtos">
-                <button type="button" class="pesquisa-produto__btn" aria-label="Pesquisar"></button>
-            </div>
+            <form action="" class="pesquisa-produto">
+                <input type="text" class="pesquisa-produto__input" placeholder="O que deseja encontrar?" aria-label="Barra de pesquisa de produtos" required>
+                <button type="submit" class="pesquisa-produto__btn" aria-label="Pesquisar"></button>
+            </form>
         </div>
     </header>
     <!-- Fim cabeçalho -->
-    <main>
+    <main class="conteudo">
         <section class="login container" id="conteudo-principal">
             <form action="" class="form__login form-padrao">
                 <p class="form__titulo form__descricao--destaque">Iniciar sessão</p>
@@ -59,6 +60,8 @@
             </form>
         </section>
         <!-- Fim login -->
+    </main> 
+    <footer>
         <section class="contato container">
             <div class="contato-divisao">
                 <img src="img/logo-alurageek.svg" alt="Logotipo da loja Alura Geek" width="180" height="50" class="contato__logo">
@@ -94,23 +97,24 @@
             </form>
         </section>
         <!-- Fim contato -->
-    </main> 
-    <footer class="rodape container">
-        <p class="creditos">&copy; Desenvolvido por Lucas da Paz - 2022</p>
+        <section class="rodape container">
+            <p class="creditos">&copy; Desenvolvido por Lucas da Paz - 2022</p>
 
-        <ul class="redes">
-			<li><a href="https://github.com/xLucaspx" class="redes__link" title="Lucas da Paz | GitHub" target="_blank">
-                <img src="img/redes/logo-github.svg" alt="Logo GitHub" width="45px" height="45px" class="redes__img">
-            </a></li>
-			<li><a href="https://www.linkedin.com/in/xlucaspx/" class="redes__link" title="Lucas da Paz | LinkedIn" target="_blank">
-                <img src="img/redes/logo-linkedin.svg" alt="Logo LinkedIn" width="45px" height="45px" class="redes__img">
-            </a></li>
-            <li><a href="https://www.instagram.com/luacspaz/" class="redes__link" title="Lucas da Paz | Instagram" target="_blank">
-                <img src="img/redes/logo-instagram.png" alt="Logo Instagram" width="45px" height="45px" class="redes__img">
-            </a></li>
-        </ul>
+            <ul class="redes">
+                <li><a href="https://github.com/xLucaspx" class="redes__link" title="Lucas da Paz | GitHub" target="_blank">
+                    <img src="img/redes/logo-github.svg" alt="Logo GitHub" width="45px" height="45px" class="redes__img">
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/xlucaspx/" class="redes__link" title="Lucas da Paz | LinkedIn" target="_blank">
+                    <img src="img/redes/logo-linkedin.svg" alt="Logo LinkedIn" width="45px" height="45px" class="redes__img">
+                </a></li>
+                <li><a href="https://www.instagram.com/luacspaz/" class="redes__link" title="Lucas da Paz | Instagram" target="_blank">
+                    <img src="img/redes/logo-instagram.png" alt="Logo Instagram" width="45px" height="45px" class="redes__img">
+                </a></li>
+            </ul>
+        </section>
     </footer>
     <!-- Fim rodapé -->
     <script src="js/validacao-form.js"></script>
+    <script src="js/pesquisa.js" type="module"></script>
 </body>
 </html>

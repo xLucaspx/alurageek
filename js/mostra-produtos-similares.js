@@ -1,6 +1,6 @@
 import { buscaProdutos } from "./modulos/busca-produtos.js";
 import { detalhaProduto } from "./modulos/detalha-produto.js";
-import { criaProdutoCardSimples } from "./modulos/cria-produtos-similares.js";
+import { criaProdutoCardSimples } from "./modulos/cria-card-simples.js";
 
 (async () => {
     let ids = [];

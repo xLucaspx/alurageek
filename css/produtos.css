@@ -37,7 +37,7 @@
 
 .produtos__lista {
     display: flex;
-    justify-content: space-between;
+    gap: 1.5rem 0;
     flex-wrap: wrap;
 }
 
@@ -55,7 +55,6 @@
     text-decoration: none;
     color: var(--cor-fonte);
     box-sizing: border-box;
-    margin-bottom: 2rem;
 }
 
 .produto__link:hover,
