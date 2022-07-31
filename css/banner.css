@@ -1,7 +1,7 @@
 .banner {
-    height: 350px;
+    height: 340px;
     background-image: url("../img/banner.png");
-    background-size: 100vw 350px;
+    background-size: 100vw 340px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;

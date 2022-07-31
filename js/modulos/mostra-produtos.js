@@ -11,5 +11,6 @@ export const mostraProdutos = async () => {
         });
     } catch (erro) {
         console.log(erro);
+        alert("Ocorreu um erro ao tentar exibir os produtos");
     }
 }

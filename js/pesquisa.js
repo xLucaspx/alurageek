@@ -4,7 +4,7 @@ import { criaProdutoCardSimples } from "./modulos/cria-card-simples.js";
 (() => {
     const pesquisa = document.querySelector(".pesquisa-produto");
     const pagina = document.querySelector(".conteudo");
-    
+
     pesquisa.addEventListener("submit", function (evento) {
         evento.preventDefault();
         const resultadoPesquisa = `
@@ -18,7 +18,7 @@ import { criaProdutoCardSimples } from "./modulos/cria-card-simples.js";
             </section>
         `
         pagina.innerHTML = resultadoPesquisa;
-    
+
         const barraPesquisa = document.querySelector(".pesquisa-produto__input");
         const expressao = new RegExp(barraPesquisa.value, "i");
         const listaProdutos = document.querySelector(".produtos__lista");
@@ -29,12 +29,12 @@ import { criaProdutoCardSimples } from "./modulos/cria-card-simples.js";
             for (let i = 0; i < produtos.length; i++) {
                 const produto = produtos[i];
                 const nome = produto.nome;
-                
-                if(expressao.test(nome)) {
+
+                if (expressao.test(nome)) {
                     listaProdutos.appendChild(criaProdutoCardSimples(produto.urlImagem, produto.altImagem, produto.nome, produto.preco, produto.id));
                 }
             }
         });
-        
+
     });
 })();
