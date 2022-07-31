@@ -28,7 +28,7 @@ import { editaProduto } from "./modulos/edita-produto-modulo.js";
 
         try {
             await editaProduto(id, urlImagem.value, altImagem.value, nome.value, preco.value, descricao.value);
-            window.location.href = "../produtos.html";
+            window.location.href = "https://xlucaspx.github.io/alurageek/produtos.html";
         }
         catch (erro) {
             console.log(erro);
