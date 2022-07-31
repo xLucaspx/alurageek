@@ -18,7 +18,7 @@ import { mostraProdutos } from "./modulos/mostra-produtos.js";
             }
         }
 
-        if (btnEditar) window.location.href = `../editar-produto.html?id=${id}`;
+        if (btnEditar) window.location.href = `https://xlucaspx.github.io/alurageek/editar-produto.html?id=${id}`;
     });
 
     mostraProdutos();
