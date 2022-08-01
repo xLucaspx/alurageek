@@ -10,7 +10,7 @@ export const criaProductView = (urlImagem, altImagem, nome, preco, descricao) =>
             <p class="product-view__descricao">${descricao}</p>
         </div>
     `
-    productView.classList.add("product-view");
+    productView.classList.add("produto");
     productView.innerHTML = conteudo;
     return productView;
 }

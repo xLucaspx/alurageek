@@ -37,8 +37,8 @@
 }
 
 @media screen 
-and (min-width: 350px) 
-and (max-width: 767px) {
+and (min-device-width: 320px) 
+and (max-device-width: 767px) {
     .contato, .contato-divisao {
         flex-direction: column;
         gap: 2rem;
@@ -55,8 +55,8 @@ and (max-width: 767px) {
 }
 
 @media screen 
-and (min-width: 768px)
-and (max-width: 1259px) {
+and (min-device-width: 768px) 
+and (max-device-width: 1023px) {
     .contato-divisao {
         flex-direction: column;
         gap: 2.5rem;

@@ -57,38 +57,38 @@
 }
 
 @media screen 
-and (min-width: 350px)
-and (max-width: 767px) {
-    .cabecalho {
-        gap: 1rem;
-    }
-    
+and (min-device-width: 320px) 
+and (max-device-width: 767px) {
+    .cabecalho,
     .cabecalho-divisao {
         gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
-    .cabecalho__img {
-        width: 100px;
-        height: auto;
-    }
-        
     .pesquisa-produto {
-        width: 25px;
-        height: 40px
+        width: 100%;
+        height: auto;
+        padding: 0.5rem;
     }
 
-    .pesquisa-produto__input {
-        display: none;
+    .pesquisa-produto__input,
+    .pesquisa-produto__btn {
+        flex-grow: initial;
     }
 
-    .btn-login {
-        order: 1;
+    .pesquisa-produto__btn {
+        width: 20px;
+        height: 20px;
     }
 }
 
 @media screen 
-and (min-width: 768px)
-and (max-width: 1259px) {
+and (min-device-width: 768px) 
+and (max-device-width: 1249px) {
     .cabecalho {
         gap: 1.2rem;
         align-items: center;

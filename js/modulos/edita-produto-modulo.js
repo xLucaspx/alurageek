@@ -15,5 +15,5 @@ export const editaProduto = async (id, urlImagem, altImagem, nome, preco, descri
 
     if (resposta.ok) return resposta.json;
 
-    throw new Error("Não fo possível atualizar as informações do produto");
+    throw new Error("Não foi possível atualizar as informações do produto");
 }

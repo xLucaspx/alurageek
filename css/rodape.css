@@ -18,8 +18,8 @@
 }
 
 @media screen 
-and (min-width: 350px) 
-and (max-width: 767px) {
+and (min-device-width: 768px) 
+and (max-device-width: 1249px) {
     .rodape {
         flex-direction: column;
         gap: 1rem;
