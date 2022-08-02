@@ -13,6 +13,9 @@ import { mostraProdutos } from "./modulos/mostra-produtos.js";
         if (btnDeletar) {
             try {
                 await deletaProduto(id);
+                setTimeout(() => {
+                    mostraProdutos();
+                }, 500);
             } catch (erro) {
                 console.log(erro);
             }
