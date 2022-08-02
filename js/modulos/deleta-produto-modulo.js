@@ -1,5 +1,5 @@
 export const deletaProduto = async (id) => {
-    const resposta = await fetch(`http://localhost:3000/produtos/${id}`, {
+    const resposta = await fetch(`https://my-json-server.typicode.com/xlucaspx/alurageek/produtos/${id}`, {
         method: "DELETE"
     });
 

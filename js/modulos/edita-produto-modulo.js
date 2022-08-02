@@ -1,5 +1,5 @@
 export const editaProduto = async (id, urlImagem, altImagem, nome, preco, descricao) => {
-    const resposta = await fetch(`http://localhost:3000/produtos/${id}`, {
+    const resposta = await fetch(`https://my-json-server.typicode.com/xlucaspx/alurageek/produtos/${id}`, {
         method: "PUT",
         headers: {
             "Content-type": "application/json"

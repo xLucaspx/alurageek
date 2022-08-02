@@ -4,6 +4,7 @@ import { criaProdutoCard } from "./cria-produto-card.js";
 export const mostraProdutos = async () => {
     try {
         const listaProdutos = document.querySelector(".produtos__lista");
+        listaProdutos.innerHTML = "";
         const produtos = await buscaProdutos();
 
         produtos.forEach(produto => {

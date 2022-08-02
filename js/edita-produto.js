@@ -35,5 +35,3 @@ import { editaProduto } from "./modulos/edita-produto-modulo.js";
         }
     });
 })();
-
-

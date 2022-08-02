@@ -1,5 +1,5 @@
 export const buscaProdutos = async () => {
-    const resposta = await fetch(`http://localhost:3000/produtos`);
+    const resposta = await fetch(`https://my-json-server.typicode.com/xlucaspx/alurageek/produtos`);
 
     if (resposta.ok) return resposta.json();
 

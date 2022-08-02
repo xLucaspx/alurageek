@@ -35,6 +35,5 @@ import { criaProdutoCardSimples } from "./modulos/cria-card-simples.js";
                 }
             }
         });
-
     });
 })();

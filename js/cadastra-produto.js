@@ -5,6 +5,7 @@ import { criaProdutoObj } from "./modulos/cria-produto-obj.js";
 
     form.addEventListener("submit", (evento) => {
         evento.preventDefault();
+        const inputs = evento.target.querySelectorAll(".campo__texto");
 
         try {
             const urlImagem = evento.target.querySelector("#cadastro-produto__imagem").value;
@@ -13,7 +14,12 @@ import { criaProdutoObj } from "./modulos/cria-produto-obj.js";
             const preco = evento.target.querySelector("#cadastro-produto__preco").value;
             const descricao = evento.target.querySelector("#cadastro-produto__descricao").value;
 
-            criaProdutoObj(urlImagem, altImagem, nome, preco, descricao).then(alert("Produto adicionado com sucesso!"));
+            criaProdutoObj(urlImagem, altImagem, nome, preco, descricao);
+            alert("Produto adicionado com sucesso!");
+            inputs.forEach(input => {
+                input.value = "";
+            });
+        
         } catch (error) {
             console.log(error);
         }
