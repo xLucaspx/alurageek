@@ -18,6 +18,6 @@ caso tenha instalado o json-server globalmente, ou
 ```
   npx json-server --watch db.json
 ```
-caso tenha instalado o json-server apenas no diretório do projeto.
+caso tenha instalado o json-server apenas no diretório do projeto. Não se esqueça que você também vai precisar de uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer "Live Server - Visual Studio Marketplace") para que o projeto funcione.
 
 E pronto, agora você pode cadastrar novos produtos e editar ou deletar os existentes!
