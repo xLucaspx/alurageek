@@ -44,6 +44,8 @@
 
 .produtos__card {
     position: relative;
+    max-width: 195px;
+    margin: 0 auto;
 }
 
 .produto__link {

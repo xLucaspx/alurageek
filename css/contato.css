@@ -11,6 +11,7 @@
 .contato-divisao {
     flex-grow: 1;
     gap: 5rem;
+    margin: 0 5rem;
 }
 
 .nav__lista {
@@ -64,5 +65,21 @@ and (max-device-width: 1023px) {
 
     .nav__lista {
         gap: 1.2rem;
+    }
+}
+
+@media screen 
+and (min-width: 1440px) {
+    .contato {
+        justify-content: space-around;
+    }
+    
+    .contato-divisao {
+        flex-grow: initial;
+        gap: 10rem;
+    }
+
+    .contato__form {
+        flex-grow: initial;
     }
 }
